@@ -1,6 +1,6 @@
 # SegFormer emulator for dynamic urban pluvial flooding
 
-Code of a deep-learning emulator for urban pluvial flood depth. The emulator predicts a 10 m flood-depth map every 10 min from a 2 h history of rainfall features and two static maps (DEM, land use). It was trained on 90 synthetic storms simulated with the physics-based hydrodynamic model (H12) for Gunsan, Republic of Korea, and tested on three historical storms (2022, 2023, 2024). With the trained weights and test data (see below), this repository reproduces the test results of the proposed model and the two benchmarks (U-Net, 1D-CNN).
+Code of a deep-learning emulator for urban pluvial flood depth. The emulator predicts a 10 m flood-depth map every 10 min from a 2 h history of rainfall features and two static maps (DEM, land use). It was trained on 90 synthetic storms simulated with the physics-based hydrodynamic model (H12; Lee et al., 2025, https://doi.org/10.1111/jfr3.70105) for Gunsan, Republic of Korea, and tested on three historical storms (2022, 2023, 2024). With the trained weights and test data (see below), this repository reproduces the test results of the proposed model and the two benchmarks (U-Net, 1D-CNN).
 
 ## Contents
 
