@@ -1,8 +1,0 @@
-# weights and data are distributed via ZIP file
-checkpoints/
-data/
-work/
-outputs/
-*.zip
-__pycache__/
-*.pyc
