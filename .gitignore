@@ -1,0 +1,8 @@
+# weights and data are distributed via Zenodo
+checkpoints/
+data/
+work/
+outputs/
+*.zip
+__pycache__/
+*.pyc

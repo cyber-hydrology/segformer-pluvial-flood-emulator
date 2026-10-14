@@ -1,0 +1,11 @@
+# Python >= 3.10. For GPU training or inference, install the CUDA build of
+# PyTorch for your system first (https://pytorch.org/get-started/locally/).
+#
+# Versions used
+#   training          : PyTorch 2.7.1 + CUDA 11.8, one NVIDIA H100 NVL, bf16
+#   inference check   : Python 3.10.11, PyTorch 2.14.1 (CPU), NumPy 2.2.6,
+#                       pandas 2.3.3, SciPy 1.15.3
+torch>=2.7
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
