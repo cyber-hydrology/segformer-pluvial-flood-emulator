@@ -6,7 +6,7 @@ Model definitions.
                   spatial-rainfall cross-attention and an FPN decoder with
                   classification and depth heads.
   FloodUNet       U-Net benchmark with a single-scale rainfall summary.
-  RainfallCNN1D   1D-CNN benchmark (Woo et al., 2025, Water 17, 1239):
+  RainfallCNN1D   1D-CNN benchmark (Woo et al., 2025, https://doi.org/10.3390/w17081239):
                   rainfall only, one output per valid grid cell.
 
 The two patch models share the interface
