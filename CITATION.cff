@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "segformer-pluvial-flood-emulator: SegFormer emulator for dynamic urban pluvial flooding"
+type: software
+authors:
+  - family-names: Woo
+    given-names: Hyuna
+    affiliation: Kumoh National Institute of Technology
+  - family-names: Kim
+    given-names: Bomi
+    affiliation: Kumoh National Institute of Technology
+  - family-names: Noh
+    given-names: Seong Jin
+    affiliation: Kumoh National Institute of Technology
+repository-code: "https://github.com/cyber-hydrology/segformer-pluvial-flood-emulator"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-14"

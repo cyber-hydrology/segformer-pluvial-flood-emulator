@@ -2,6 +2,8 @@
 
 Code of a deep-learning emulator for urban pluvial flood depth. The emulator predicts a 10 m flood-depth map every 10 min from a 2 h history of rainfall features and two static maps (DEM, land use). It was trained on 90 synthetic storms simulated with the physics-based hydrodynamic model (H12; Lee et al., 2025, https://doi.org/10.1111/jfr3.70105) for Gunsan, Republic of Korea, and tested on three historical storms (2022, 2023, 2024). With the trained weights and test data (see below), this repository reproduces the test results of the proposed model and the two benchmarks (U-Net, 1D-CNN).
 
+Authors: Hyuna Woo, Bomi Kim and Seong Jin Noh, Department of Civil Engineering, Kumoh National Institute of Technology, Republic of Korea. Contact: hwoo@kumoh.ac.kr, kimbom3835@kumoh.ac.kr, seongjin.noh@kumoh.ac.kr.
+
 ## Contents
 
 ```
@@ -117,4 +119,4 @@ Inference settings (stored in each checkpoint under `config`): 12 steps (2 h) of
 
 ## License
 
-Code: MIT License (`LICENSE`). Trained weights and data in the release package: CC BY-NC 4.0.
+The code, trained weights and data in this repository and its release package are released under the MIT License (`LICENSE`). The rainfall records in `data/rainfall/` are from the Korea Meteorological Administration and remain subject to its terms of use.
